@@ -144,7 +144,7 @@ h2{
         text-align: center;
     }
     .top-players{
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
         justify-items: center;
     }
     .latest-courses{
