@@ -149,6 +149,15 @@ h2{
 }
 
 @media  screen and (max-width: 576px) {
+    .nav-container{
+        margin: 0 50px;
+    }
+    .nav> div >img{
+        display: none;
+    }
+    .navbar{
+        text-align: center;
+    }
     .container>h2{
         text-align: center;
     }
@@ -175,7 +184,9 @@ h2{
     }
 }
 @media screen and (min-width: 577px) and (max-width: 976px) {
-    
+    .nav-container{
+        margin: 0 50px;
+    }
     .container>h2{
         text-align: center;
     }
